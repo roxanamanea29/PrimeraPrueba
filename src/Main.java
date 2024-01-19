@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println(" BMI  Form");
         System.out.println("================");
-DSGERGE
+//rdgdgf
 
         System.out.println(" Enter your name: ");
         name = scan.nextLine();
