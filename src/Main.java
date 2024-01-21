@@ -11,16 +11,12 @@ public class Main {
     public static void main(String[] args) {
         // declaración de variables
         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-        Person person1;
-        Person person2;
-        Person person3;
-        Person person4;
-
-       /* String name;
+        Person [] persons = new Person[10];
+        String name;
         int age;
         double height;
         int weight;
-        double bmi;*/
+
 
         //form
         System.out.println(" BMI  Form");
@@ -43,16 +39,23 @@ public class Main {
 
 
         // create the objets Person
-        person1 = new Person("Roxana", 19, 1.35, 37);
-        person2 = new Person("Roxa", 11, 1.75, 67);
-        person3 = new Person("Roxan", 17, 1.45, 47);
-        person4 = new Person("Rox", 15, 1.49, 57);
+        persons[0] = new Person("Roxana", 19, 1.35, 37);
+        persons[1] = new Person("Roxan", 149, 1.55, 367);
+        persons[2] = new Person("Roxa", 192, 1.635, 347);
+        persons[3] = new Person("Rox", 119, 1.35, 317);
+        persons[4] = new Person("Roa", 189, 1.35, 347);
+        persons[5] = new Person("Roxab", 159, 1.35, 378);
+        persons[6] = new Person("Roxanrwa", 139, 1.35, 367);
+        persons[7] = new Person("Roxarwna", 109, 1.35, 37);
+        persons[8] = new Person("Roxweana", 192, 1.35, 327);
+        persons[9] = new Person("Roxanrwa", 149, 1.35, 375);
+
+
 
         //calculation result
-        System.out.println(person1.calculationResult());
-        System.out.println(person2.calculationResult());
-        System.out.println(person3.calculationResult());
-        System.out.println(person4.calculationResult());
+        for(int i=0; i< persons.length; i++){
+            System.out.println(persons[i].calculationResult());
+        }
 
 
     }

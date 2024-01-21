@@ -1,0 +1,17 @@
+
+W
+java:S1854#":Remove this useless assignment to local variable "weight".(¢ş’Õ8Î¦ŒàÒ1
+W
+java:S1854 ":Remove this useless assignment to local variable "height".(Úáªá8Ï¦ŒàÒ1
+T
+java:S1854"7Remove this useless assignment to local variable "age".(‘ÅÃ²8Ï¦ŒàÒ1
+U
+java:S1854"8Remove this useless assignment to local variable "name".(¿´à8Ï¦ŒàÒ1
+F
+java:S1481")Remove this unused "name" local variable.(Ê§…ñ8Ñ¦ŒàÒ1
+E
+java:S1481"(Remove this unused "age" local variable.(¯Ó¶»8Ñ¦ŒàÒ1
+M
+java:S1481"+Remove this unused "height" local variable.(öÀ‚ùÿÿÿÿ8Ñ¦ŒàÒ1
+M
+java:S1481"+Remove this unused "weight" local variable.(²Æ¼øÿÿÿÿ8Ñ¦ŒàÒ1

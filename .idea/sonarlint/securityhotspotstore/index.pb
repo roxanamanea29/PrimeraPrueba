@@ -12,3 +12,5 @@ S
 Q.idea/sonarlint/securityhotspotstore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138,b/0/b08f1ab659fbdd998f45c0def99188f980cc899b
 @
 proyecto IMC.iml,0/f/0f993983c71c4c99c6c1f4a218574f92fdbcfa8b
+?
+src/Person.java,0/2/029dfd4797368bfce5c2cb772c60b54a595ad1c6
