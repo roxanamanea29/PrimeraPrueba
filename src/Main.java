@@ -12,10 +12,10 @@ public class Main {
         // declaración de variables
         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
         Person [] persons = new Person[10];
-        String name;
+        /*String name;
         int age;
         double height;
-        int weight;
+        int weight;*/
 
 
         //form
