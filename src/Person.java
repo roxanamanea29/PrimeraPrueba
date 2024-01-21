@@ -25,7 +25,8 @@ public class Person {
     private void calculateBMI() {this.bmi = this.weight / (this.height * this.height);}
 
     public String calculationResult(){
-        return "Your name is; "+name+",  your IMC is: "+bmi+", the age is: "+age+ ", the height is:" +height+" kg, and the weight is: "+weight+" m";
+        return "Your name is; "+name+",  your IMC is: "+String.format("%.2f",bmi)+", the age is: "+age+ ", the height is:" +height+" kg, and the weight is: "+weight+" m" ;
+
     }
 
     public int getAge(){

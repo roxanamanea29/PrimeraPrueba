@@ -1,4 +1,5 @@
 
+import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         // declaración de variables
         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-        Person [] persons = new Person[10];
+        ArrayList<Person> persons = new ArrayList <>();
          String name;
          int age;
          double height;
@@ -39,24 +40,19 @@ public class Main {
 
 
         // create the objets Person
-        persons[0] = new Person("Roxana", 19, 1.35, 37);
-        persons[1] = new Person("Roxan", 149, 1.55, 367);
-        persons[2] = new Person("Roxa", 192, 1.635, 347);
-        persons[3] = new Person("Rox", 119, 1.35, 317);
-        persons[4] = new Person("Roa", 189, 1.35, 347);
-        persons[5] = new Person("Roxab", 159, 1.35, 378);
-        persons[6] = new Person("Roxanrwa", 139, 1.35, 367);
-        persons[7] = new Person("Roxarwna", 109, 1.35, 37);
-        persons[8] = new Person("Roxweana", 192, 1.35, 327);
-        persons[9] = new Person("Roxanrwa", 149, 1.35, 375);
-
+       persons.add(new Person(name,age,height,weight));
+       persons.add(new Person("Roxana",35,1.64,59));
+       persons.add(new Person("Arthur",8,1.32,25));
+       persons.add(new Person("Albert",11,1.60,41));
+       persons.add(new Person(" Florin",36,1.84,68));
+       persons.add(new Person("Ana",40,1.54,57));
 
 
         //calculation result
-        for(int i=0; i< persons.length; i++){
-            System.out.println(persons[i].calculationResult());
-        }
+        for(Person p :persons){
+            System.out.println(p.calculationResult());
 
+        }
 
     }
 }
