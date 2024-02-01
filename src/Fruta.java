@@ -1,9 +1,6 @@
-import java.util.Iterator;
-import java.util.List;
-
 /**
  * @author Roxana
- * @ date 21/01/2024
+ * @date 01/02/2024
  */
 public class Fruta {
     private String nombreFruta;

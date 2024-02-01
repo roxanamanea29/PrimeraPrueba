@@ -1,7 +1,4 @@
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 /**
  * @author Roxana
  * @date 25/01/2024
@@ -48,7 +45,7 @@ public class GestorFruteria {
     public void borrarFruta(int id) {
         for (Fruta fruta : frutas) {
             if (fruta.getId() == id) {
-                if (!fruta.isBorrado()) {
+                if(!fruta.isBorrado()) {
                     fruta.setBorrado(true);
                 }
             }

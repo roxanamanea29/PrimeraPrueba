@@ -1,5 +1,3 @@
-
-import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -53,11 +51,10 @@ public class Main {
     private static void buscarFruta() {
         String frutaX;
         System.out.println("   Filtro de busqueda de furta por nombre");
-        System.out.println("===============================================");
-        System.out.println(" Ingrese el  nombre de la fruta que buscas");
         System.out.println("================================================");
+        System.out.println(" Ingrese el  nombre de la fruta que buscas");
         frutaX = scanFrut.nextLine();
-        System.out.println("La fruta que escogio es: " + frutaX);
+        System.out.println(" La fruta que escogio es: "+ frutaX);
         cabeceraListaFruta();
         for (Fruta f : gf.busquedaFruta(frutaX)) {
             System.out.println(f.toString());
@@ -67,9 +64,8 @@ public class Main {
     private static void buscarCantidadFruta(){
         int cantidadX;
         System.out.println("   Filtro de busqueda de furta por cantidad");
-        System.out.println("===============================================");
-        System.out.println(" Ingrese el  nombre de la fruta que buscas");
         System.out.println("================================================");
+        System.out.println(" Ingrese el  nombre de la fruta que buscas");
         cantidadX = scanNum.nextInt();
         cabeceraListaFruta();
         for (Fruta f : gf.busquedaFrutaCant(cantidadX)) {
@@ -134,7 +130,7 @@ public class Main {
         System.out.println("  Ingrese el id de la fruta que queres borrrar");
         System.out.println("===============================================");
         idX = scanNum.nextInt();
-        System.out.println("El id escogido es: " + idX + "\n");
+        System.out.println(" El id escogido es: " +idX+ "\n");
         gf.borrarFruta(idX);
     pausa();
 }
